@@ -1,0 +1,50 @@
+.home{
+    text-align: center;
+}
+
+.home_head{
+    font-size: 45px;
+    font-weight: 500;
+    color: #1890FF;
+    margin: 20px;
+    text-shadow: 0 5px 5px #ccc;
+}
+
+.home>p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.search>input{
+    width: 30%;
+    border: 1px solid #ccc;
+}
+
+.search>button{
+    cursor: pointer;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.home_movie{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.home_movie_item{
+    margin-top: 20px;
+    margin-left: 250px;
+    box-shadow: 0 0 35px 5px rgba(0, 0, 0, 0.4);
+}
+
+.home_movie_item:hover{
+    transform: scale(1.03);
+    transition: all ease .5s;
+    cursor: pointer;
+}

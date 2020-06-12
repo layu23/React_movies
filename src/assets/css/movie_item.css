@@ -1,0 +1,17 @@
+.movie_box{
+    border: 1px solid #bdc3c7;
+    text-align: center;
+    padding: 20px;
+    box-shadow:2px 2px 5px #7f8c8d;
+    margin: 10px 35px;
+}
+
+.movie_box:hover{
+    transform: scale(1.05) rotate(1deg);
+    transition: all .3s ease;
+}
+
+.movie_box>img{
+    width: 160px;
+    height: 240px;
+}
